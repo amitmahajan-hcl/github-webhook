@@ -8,10 +8,10 @@
 test:
   # list of required services
   services:
-    - name: github-rabbitmq
-      type: broker
-      broker: cloudamqp
-      plan: lemur
+    #- name: github-rabbitmq
+    #  type: broker
+    #  broker: cloudamqp
+    #  plan: lemur
     - name: github-eureka
       type: app
       coordinates: com.example.eureka:github-eureka:0.0.1.M1
